@@ -497,4 +497,5 @@
 {"id":497,"name":"Fib N9 - Prague Powder","quantity":193,"code_value":"O149","is_published":true,"expiration":"04/03/2022","price":544.72},
 {"id":498,"name":"Appetizer - Smoked Salmon / Dill","quantity":396,"code_value":"Y271XXA","is_published":false,"expiration":"30/05/2021","price":791.31},
 {"id":499,"name":"Bread Base - Toscano","quantity":212,"code_value":"S62624A","is_published":true,"expiration":"22/07/2021","price":536.9},
-{"id":500,"name":"Chicken - Soup Base","quantity":479,"code_value":"S2599XD","is_published":false,"expiration":"11/05/2021","price":515.93}]
+{"id":500,"name":"Chicken - Soup Base","quantity":479,"code_value":"S2599XD","is_published":false,"expiration":"11/05/2021","price":515.93}
+]
