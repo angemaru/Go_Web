@@ -1,4 +1,4 @@
-{"id":1,"name":"Oil - Margarine","quantity":439,"code_value":"S82254D","is_published":true,"expiration":"15/12/2021","price":71.42},
+[{"id":1,"name":"Oil - Margarine","quantity":439,"code_value":"S82254D","is_published":true,"expiration":"15/12/2021","price":71.42},
 {"id":2,"name":"Pineapple - Canned, Rings","quantity":345,"code_value":"M4637","is_published":true,"expiration":"09/08/2021","price":352.79},
 {"id":3,"name":"Wine - Red Oakridge Merlot","quantity":367,"code_value":"T65812","is_published":false,"expiration":"24/05/2021","price":179.23},
 {"id":4,"name":"Cookie - Oatmeal","quantity":130,"code_value":"M7157","is_published":false,"expiration":"28/01/2022","price":275.47},
@@ -497,4 +497,4 @@
 {"id":497,"name":"Fib N9 - Prague Powder","quantity":193,"code_value":"O149","is_published":true,"expiration":"04/03/2022","price":544.72},
 {"id":498,"name":"Appetizer - Smoked Salmon / Dill","quantity":396,"code_value":"Y271XXA","is_published":false,"expiration":"30/05/2021","price":791.31},
 {"id":499,"name":"Bread Base - Toscano","quantity":212,"code_value":"S62624A","is_published":true,"expiration":"22/07/2021","price":536.9},
-{"id":500,"name":"Chicken - Soup Base","quantity":479,"code_value":"S2599XD","is_published":false,"expiration":"11/05/2021","price":515.93}
+{"id":500,"name":"Chicken - Soup Base","quantity":479,"code_value":"S2599XD","is_published":false,"expiration":"11/05/2021","price":515.93}]
