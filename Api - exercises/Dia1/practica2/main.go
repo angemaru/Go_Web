@@ -53,14 +53,11 @@ func main() {
 
 }
 
-// This handler helps you to get more than one parameter and return all the products with more price than
+// This helps you to get more than one parameter and return all the products with more price than
 func BuscarProductoMayorParam(ctxt *gin.Context) {
 	flag := true
 
-	fmt.Println("mira, entré!!")
 	priceGt, _ := strconv.ParseFloat(ctxt.Query("priceGt"), 64)
-
-	fmt.Println("mira, entré!")
 
 	var productsHighPrice []Product
 	for _, product := range products {
@@ -78,7 +75,7 @@ func BuscarProductoMayorParam(ctxt *gin.Context) {
 
 }
 
-// Este handler retornará los productos con precio mayor a priceGt
+// Este retornará los productos con precio mayor a priceGt
 func BuscarProductoMayor(ctxt *gin.Context) {
 	flag := true
 	priceGt := 900.0
@@ -94,7 +91,8 @@ func BuscarProductoMayor(ctxt *gin.Context) {
 		}
 	}
 	if flag {
-		ctxt.String(404, "Información del producto ¡No existe!")
+		ctxt.JSON(400, gin.H{"message": "products not found", "data": nil}) //Es correcto poner primero que salió mal y después que está bien
+		//ctxt.String(400, "Información del producto ¡No existe!")
 	} else {
 		ctxt.JSON(200, productsHighPrice)
 	}
